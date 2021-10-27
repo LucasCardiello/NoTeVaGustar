@@ -1,0 +1,40 @@
+@import "Variables";
+
+/*Menu*/
+header{
+    .menu{
+        display: flex;
+        justify-content: space-around;
+        background-image: linear-gradient(to top, rgba(30, 30, 30, 0), black);
+        color: white;
+        list-style-type: none;
+        padding: 10px; 
+    }
+    .menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    .menu li a{
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px;
+        font-family: 'Spartan', sans-serif;
+        font-size: 13px;
+    }
+    .menu li a:hover{
+        background-color: rgba(250, 220, 80, 0.380);
+        color: white;
+        border-radius: 5px;
+    }
+    .logo{
+        width: 50px;
+        margin: 0px;
+        padding: 0px;
+        transition: all 2s ease;
+    }
+    .logo:hover{
+        transform: rotate(360deg);
+    }
+}
+

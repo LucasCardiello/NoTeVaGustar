@@ -1,0 +1,41 @@
+@import "Variables";
+
+/*footer*/
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    word-spacing: 20px;
+    margin: 0px auto;
+    padding: 10px;
+}
+@media only screen and (min-width: 576px)
+{
+    .footer{
+        width: 100%;
+        padding: 0px;
+        word-spacing: 10px;
+        background-color: black;
+    }
+}
+.tw{
+    transition: all 1s ease;
+}
+.tw:hover{
+    transform: scale(1.3 , 1.3);
+}
+.ig{
+    transition: all 1s ease;
+}
+.ig:hover{
+    transform: scale(1.3 , 1.3);
+}
+.fb{
+    transition: all 1s ease;
+}
+.fb:hover{
+    transform: scale(1.3 , 1.3);
+}
+
+.cajas{
+    width: 99%;
+}
